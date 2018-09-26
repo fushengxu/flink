@@ -45,4 +45,8 @@ public class Tuple2Test {
 	public void testGetFieldE() {
 		System.out.println("Hello flink");
 	}
+	@Test
+	public void testMain() {
+		System.out.println("Hello flink too");
+	}
 }
