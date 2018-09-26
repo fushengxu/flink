@@ -41,4 +41,7 @@ public class Tuple2Test {
 		Assert.assertEquals("Test case", tuple.getFieldNotNull(0));
 		tuple.getFieldNotNull(1);
 	}
+	public void testGetFieldE() {
+		System.out.println("Hello flink");
+	}
 }
